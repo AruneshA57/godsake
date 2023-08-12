@@ -1,0 +1,7 @@
+//    @ManyToOne
+//    @JoinColumn(name = "customer_ID")
+//    Customer customer;
+//
+//    @ManyToOne
+//    @JoinColumn(name = "sales_User")
+//    SalesUser salesUser;
