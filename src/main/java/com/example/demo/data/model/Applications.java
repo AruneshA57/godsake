@@ -1,6 +1,7 @@
 package com.example.demo.data.model;
 
 import com.example.demo.data.enums.ApplicationStatus;
+import com.example.demo.dto.NewApplication;
 import jakarta.persistence.*;
 import lombok.*;
 import java.sql.Date;
@@ -14,12 +15,19 @@ import java.sql.Date;
 
 public class Applications extends BaseEntity{
 
-    Integer applicationId;
-    Date dateCreated;
+
+
+    @ManyToOne
+    Customer customer;
+    String applicationId;
+    String dateCreated;
     ApplicationStatus applicationStatus;
     String creditCardType;
     String aadharFileName;
     String panFileName;
     String incomeProofFileName;
+
+
+
 
 }
