@@ -1,8 +1,8 @@
 package com.example.demo.data.model;
 
 import com.example.demo.data.enums.SalesUserGrade;
-import jakarta.persistence.Entity;
-import jakarta.persistence.OneToMany;
+import javax.persistence.Entity;
+import javax.persistence.OneToMany;
 import lombok.*;
 
 import java.util.Set;

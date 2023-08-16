@@ -1,4 +1,4 @@
-package com.example.demo.Configuration;
+package com.example.demo.Controller.Configuration;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
